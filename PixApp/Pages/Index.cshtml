@@ -1,0 +1,10 @@
+﻿@page "{handler?}"
+@model PixApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<img src="@Url.Page("Index","Image",new {width=400,height=300,file="adventure.jpg" })" class="img-fluid"  />
+
