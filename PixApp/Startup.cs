@@ -25,7 +25,7 @@ namespace PixApp
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
         }
     }
